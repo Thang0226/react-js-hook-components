@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import Timer from './components/Timer';
 import reportWebVitals from './reportWebVitals';
+import Counter1 from "./components/Counter1";
+import Counter2 from "./components/Counter2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Timer />
+    // <Timer />
+    <>
+        <Counter1/>
+        <Counter2/>
+    </>
 );
 
 // If you want to start measuring performance in your app, pass a function
